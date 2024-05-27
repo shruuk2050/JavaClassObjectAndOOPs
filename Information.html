@@ -1,0 +1,64 @@
+<h3>Class : </h3>
+<p>It's Logical Entity . It does not have state and Behavior . It is a Blueprint..</p>
+<h3>Object : </h3>
+<ul>
+    <li>An object is a real-world entity.</li>
+    <li>An object is a runtime entity.</li>
+    <li>It have state(Data value) , Behavior(Functionality) , Identity(unique ID)..</li>
+    <li>The object is an instance of a class.</li>
+</ul>
+
+<h3>Pillers of OOP'S  : </h3>
+<ol>
+    <li>Inheritance : </li>
+    <ul>
+        <li>one object acquires all the properties and behaviors of a parent object.
+        It is an important part of OOPs (Object Oriented programming system).</li>
+        <li>Inheritance have 5 types . These are Single Inheritance , Multilevel Inheritance , Hierarchical Inheritance ,
+           Hybrid Inheritance , Multiple Inheritance . But in java Hybrid and Multiple Inheritance not supproted..</li>
+    </ul>
+    <li>Aggregation : </li>
+    <ul>
+        <li>If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.</li>
+        <li>Code reuse is also best achieved by aggregation when there is no is-a relationship.</li>
+        <li>Inheritance should be used only if the relationship is-a is maintained throughout the lifetime of the objects involved.
+             otherwise, aggregation is the best choice.</li>
+    </ul>
+    <li>Polymorphism : </li>
+    <ul>
+        <li>Polymorphism in Java is a concept by which we can perform a single action in different ways.</li>
+        <li>It have two types : </li>
+        <ol>
+            <li>Compile time Polymorphism(Method Overloading , Static Binding)</li>
+            <p>If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.</p>
+            <li>Run time Polymorphism(Method Overriding , Dynamic Binding)</li>
+            <ul>
+                <li>The method must have the same name as in the parent class.</li>
+                <li>The method must have the same parameter as in the parent class.</li>
+                <li>There must be an IS-A relationship (inheritance).</li>
+            </ul>
+        </ol>
+    </ul>
+    <li>Abstraction : </li>
+    <ul>
+        <li>Abstraction is a process of hiding the implementation details and showing only functionality to the user.</li>
+        <li>An abstract class must be declared with an abstract keyword.</li>
+        <li>It can have abstract and non-abstract methods.</li>
+        <li>It cannot be instantiated.</li>
+        <li>It can have constructors and static methods also.</li>
+        <li>It can have final methods which will force the subclass not to change the body of the method.</li>
+    </ul>
+    <li>Encapsulation : </li>
+    <ul>
+        <li>Encapsulation in Java is a process of wrapping code and data together into a single unit.</li>
+        <li>The Java Bean class is the example of a fully encapsulated class.</li>
+    </ul>
+</ol>
+<h4>Why java is not supproted to multiple and hybrid inheritance?</h4>
+<p> To avoid the complexity and ambiguity associated with it,
+    where a class inherits from two classes that have a common ancestor, 
+    leading to conflicts in the inheritance of methods.</p>
+<h4>Wrapper classes : </h4>
+<p>The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
+    autoboxing means convert primitives into objects and unboxing means objects into primitives automatically.</p>
+
